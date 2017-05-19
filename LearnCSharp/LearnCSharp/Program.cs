@@ -17,9 +17,10 @@ namespace LearnCSharp {
             //_vector3.SetY(1);
             //_vector3.SetZ(1);
 
-            
+            _vector3.X = 100;
 
-            Console.WriteLine(_vector3.Length());
+            Console.WriteLine(_vector3.X);
+
             Console.ReadKey();
 
         }
