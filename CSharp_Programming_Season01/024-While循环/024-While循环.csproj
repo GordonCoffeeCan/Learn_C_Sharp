@@ -1,9 +1,10 @@
-<Project Sdk="Microsoft.NET.Sdk">
-
+<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="Current">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>_024_While循环</RootNamespace>
+    <FileUpgradeFlags>40</FileUpgradeFlags>
+    <UpgradeBackupLocation>G:\Unity_Learn_Path\Learn_C_Sharp\CSharp_Programming_Season01\Backup1\024-While循环\</UpgradeBackupLocation>
+    <OldToolsVersion>Current</OldToolsVersion>
   </PropertyGroup>
-
 </Project>
