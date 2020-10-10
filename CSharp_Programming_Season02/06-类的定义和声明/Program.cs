@@ -11,16 +11,30 @@ namespace _06_类的定义和声明 {
 
             Console.WriteLine(car1.speed);
 
-            Vector3 v1 = new Vector3();
+            //Vector3 v1 = new Vector3();
             //v1.x = 1;
             //v1.y = 1;
             //v1.z = 1;
 
-            v1.SetX(1);
-            v1.SetY(1);
-            v1.SetZ(1);
+            //v1.SetX(1);
+            //v1.SetY(1);
+            //v1.SetZ(1);
 
-            Console.WriteLine(v1.Length());
+            Vector3 v1 = new Vector3(1, 2, 3);
+
+            v1.Name = "siki";
+            Console.WriteLine(v1.Name);
+
+            //Console.WriteLine(v1.Length());
+
+            v1.MyIntProperty = 600;
+
+            v1.X = 100;
+            Console.WriteLine(v1.X);
+
+            int temp = v1.MyIntProperty;
+            Console.WriteLine(temp);
+            
         }
     }
 }
