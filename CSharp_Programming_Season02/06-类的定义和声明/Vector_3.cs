@@ -4,7 +4,7 @@ using System.Runtime.InteropServices.WindowsRuntime;
 using System.Text;
 
 namespace _06_类的定义和声明 {
-    public class Vector3 {
+    public class Vector_3 {
 
         //编程规范，习惯吧所有字段设置为private，只可在类内部访问；
         private float x, y, z, length;
@@ -60,11 +60,11 @@ namespace _06_类的定义和声明 {
             }
         }
 
-        public Vector3() {
+        public Vector_3() {
             Console.WriteLine("Run!");
         }
 
-        public Vector3(float x, float y, float z) {
+        public Vector_3(float x, float y, float z) {
             this.x = x;
             this.y = y;
             this.z = z;

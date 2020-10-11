@@ -20,7 +20,7 @@ namespace _06_类的定义和声明 {
             //v1.SetY(1);
             //v1.SetZ(1);
 
-            Vector3 v1 = new Vector3(1, 2, 3);
+            Vector_3 v1 = new Vector_3(1, 2, 3);
 
             v1.Name = "siki";
             Console.WriteLine(v1.Name);

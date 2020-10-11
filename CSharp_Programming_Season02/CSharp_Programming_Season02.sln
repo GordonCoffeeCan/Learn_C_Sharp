@@ -15,7 +15,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05-面向对象编程-类",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06-类的定义和声明", "06-类的定义和声明\06-类的定义和声明.csproj", "{AB8D609A-5B26-4FEF-A525-183A577F31BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07-匿名类型", "07-匿名类型\07-匿名类型.csproj", "{AC870712-F424-4246-BB3C-9E66B37E258B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07-匿名类型", "07-匿名类型\07-匿名类型.csproj", "{AC870712-F424-4246-BB3C-9E66B37E258B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08-值类型和引用类型-程序运行时内存的占用", "08-值类型和引用类型-程序运行时内存的占用\08-值类型和引用类型-程序运行时内存的占用.csproj", "{37C6E945-342A-4D9C-9FC7-E3B1CB11FF67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09-面向对象编程-继承", "09-面向对象编程-继承\09-面向对象编程-继承.csproj", "{2DAAB057-F3CB-4DAD-BC60-D81C149EF3F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10-密封类和密封方法", "10-密封类和密封方法\10-密封类和密封方法.csproj", "{3BE21151-297E-4840-B485-65E6A1C08DAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11-派生类的构造函数", "11-派生类的构造函数\11-派生类的构造函数.csproj", "{E5C80998-A051-42B3-A341-7BD93CD9D729}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +59,22 @@ Global
 		{AC870712-F424-4246-BB3C-9E66B37E258B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC870712-F424-4246-BB3C-9E66B37E258B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC870712-F424-4246-BB3C-9E66B37E258B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37C6E945-342A-4D9C-9FC7-E3B1CB11FF67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37C6E945-342A-4D9C-9FC7-E3B1CB11FF67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37C6E945-342A-4D9C-9FC7-E3B1CB11FF67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37C6E945-342A-4D9C-9FC7-E3B1CB11FF67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DAAB057-F3CB-4DAD-BC60-D81C149EF3F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DAAB057-F3CB-4DAD-BC60-D81C149EF3F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DAAB057-F3CB-4DAD-BC60-D81C149EF3F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DAAB057-F3CB-4DAD-BC60-D81C149EF3F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BE21151-297E-4840-B485-65E6A1C08DAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BE21151-297E-4840-B485-65E6A1C08DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BE21151-297E-4840-B485-65E6A1C08DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BE21151-297E-4840-B485-65E6A1C08DAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5C80998-A051-42B3-A341-7BD93CD9D729}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5C80998-A051-42B3-A341-7BD93CD9D729}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5C80998-A051-42B3-A341-7BD93CD9D729}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5C80998-A051-42B3-A341-7BD93CD9D729}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
