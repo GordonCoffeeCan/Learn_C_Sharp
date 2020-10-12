@@ -12,7 +12,7 @@ namespace _11_派生类的构造函数 {
 
             ClassXYZ.z = 100;
             ClassXYZ.TestMethod();
-            Console.WriteLine(ClassXYZ.z);
+            Console.WriteLine(ClassXYZ.z); 
         }
     }
 }

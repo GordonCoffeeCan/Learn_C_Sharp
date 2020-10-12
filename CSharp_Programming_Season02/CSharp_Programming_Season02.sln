@@ -17,13 +17,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06-类的定义和声明", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07-匿名类型", "07-匿名类型\07-匿名类型.csproj", "{AC870712-F424-4246-BB3C-9E66B37E258B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08-值类型和引用类型-程序运行时内存的占用", "08-值类型和引用类型-程序运行时内存的占用\08-值类型和引用类型-程序运行时内存的占用.csproj", "{37C6E945-342A-4D9C-9FC7-E3B1CB11FF67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08-值类型和引用类型-程序运行时内存的占用", "08-值类型和引用类型-程序运行时内存的占用\08-值类型和引用类型-程序运行时内存的占用.csproj", "{37C6E945-342A-4D9C-9FC7-E3B1CB11FF67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09-面向对象编程-继承", "09-面向对象编程-继承\09-面向对象编程-继承.csproj", "{2DAAB057-F3CB-4DAD-BC60-D81C149EF3F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09-面向对象编程-继承", "09-面向对象编程-继承\09-面向对象编程-继承.csproj", "{2DAAB057-F3CB-4DAD-BC60-D81C149EF3F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10-密封类和密封方法", "10-密封类和密封方法\10-密封类和密封方法.csproj", "{3BE21151-297E-4840-B485-65E6A1C08DAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10-密封类和密封方法", "10-密封类和密封方法\10-密封类和密封方法.csproj", "{3BE21151-297E-4840-B485-65E6A1C08DAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11-派生类的构造函数", "11-派生类的构造函数\11-派生类的构造函数.csproj", "{E5C80998-A051-42B3-A341-7BD93CD9D729}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11-派生类的构造函数", "11-派生类的构造函数\11-派生类的构造函数.csproj", "{E5C80998-A051-42B3-A341-7BD93CD9D729}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12-定义和实现接口", "12-定义和实现接口\12-定义和实现接口.csproj", "{134249FC-D293-49D6-805F-8D0873EC8B5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14-列表List的创建和使用", "14-列表List的创建和使用\14-列表List的创建和使用.csproj", "{F411E60F-2861-4868-96B3-F0587FA98E49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15-列表的遍历", "15-列表的遍历\15-列表的遍历.csproj", "{6DE613B4-D310-4F3B-9867-8447987CDE61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16-操作列表的属性和方法", "16-操作列表的属性和方法\16-操作列表的属性和方法.csproj", "{6D17B0AA-BCC8-4131-B8FA-EB3522ED30AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +83,22 @@ Global
 		{E5C80998-A051-42B3-A341-7BD93CD9D729}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5C80998-A051-42B3-A341-7BD93CD9D729}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5C80998-A051-42B3-A341-7BD93CD9D729}.Release|Any CPU.Build.0 = Release|Any CPU
+		{134249FC-D293-49D6-805F-8D0873EC8B5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{134249FC-D293-49D6-805F-8D0873EC8B5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{134249FC-D293-49D6-805F-8D0873EC8B5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{134249FC-D293-49D6-805F-8D0873EC8B5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F411E60F-2861-4868-96B3-F0587FA98E49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F411E60F-2861-4868-96B3-F0587FA98E49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F411E60F-2861-4868-96B3-F0587FA98E49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F411E60F-2861-4868-96B3-F0587FA98E49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DE613B4-D310-4F3B-9867-8447987CDE61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DE613B4-D310-4F3B-9867-8447987CDE61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DE613B4-D310-4F3B-9867-8447987CDE61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DE613B4-D310-4F3B-9867-8447987CDE61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D17B0AA-BCC8-4131-B8FA-EB3522ED30AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D17B0AA-BCC8-4131-B8FA-EB3522ED30AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D17B0AA-BCC8-4131-B8FA-EB3522ED30AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D17B0AA-BCC8-4131-B8FA-EB3522ED30AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
