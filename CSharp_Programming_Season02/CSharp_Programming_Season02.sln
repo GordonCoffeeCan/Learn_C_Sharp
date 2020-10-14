@@ -25,13 +25,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10-密封类和密封方法
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11-派生类的构造函数", "11-派生类的构造函数\11-派生类的构造函数.csproj", "{E5C80998-A051-42B3-A341-7BD93CD9D729}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12-定义和实现接口", "12-定义和实现接口\12-定义和实现接口.csproj", "{134249FC-D293-49D6-805F-8D0873EC8B5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12-定义和实现接口", "12-定义和实现接口\12-定义和实现接口.csproj", "{134249FC-D293-49D6-805F-8D0873EC8B5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14-列表List的创建和使用", "14-列表List的创建和使用\14-列表List的创建和使用.csproj", "{F411E60F-2861-4868-96B3-F0587FA98E49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14-列表List的创建和使用", "14-列表List的创建和使用\14-列表List的创建和使用.csproj", "{F411E60F-2861-4868-96B3-F0587FA98E49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15-列表的遍历", "15-列表的遍历\15-列表的遍历.csproj", "{6DE613B4-D310-4F3B-9867-8447987CDE61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15-列表的遍历", "15-列表的遍历\15-列表的遍历.csproj", "{6DE613B4-D310-4F3B-9867-8447987CDE61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16-操作列表的属性和方法", "16-操作列表的属性和方法\16-操作列表的属性和方法.csproj", "{6D17B0AA-BCC8-4131-B8FA-EB3522ED30AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "16-操作列表的属性和方法", "16-操作列表的属性和方法\16-操作列表的属性和方法.csproj", "{6D17B0AA-BCC8-4131-B8FA-EB3522ED30AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17-泛型-泛型类", "17-泛型-泛型类\17-泛型-泛型类.csproj", "{E240FF5C-4B3E-4C2A-B30E-4C77ED625C72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{6D17B0AA-BCC8-4131-B8FA-EB3522ED30AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D17B0AA-BCC8-4131-B8FA-EB3522ED30AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D17B0AA-BCC8-4131-B8FA-EB3522ED30AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E240FF5C-4B3E-4C2A-B30E-4C77ED625C72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E240FF5C-4B3E-4C2A-B30E-4C77ED625C72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E240FF5C-4B3E-4C2A-B30E-4C77ED625C72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E240FF5C-4B3E-4C2A-B30E-4C77ED625C72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
